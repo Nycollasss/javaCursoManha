@@ -5,7 +5,7 @@ package cursoJava2024;
 import java.util.Arrays;
 import java.util.List;
 
-public class RemoveDuplicatas {2
+public class RemoveDuplicatas {
 	
 	public static void main(String[] args) {
 		List<Integer> numeros = Arrays.asList(1,2,2,3,4,4,5);

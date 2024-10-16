@@ -1,10 +1,15 @@
 package cursoJava2024;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class FiltrarValores {
 
 	public static void main(String[] args) {
-		// TODO Stub de método gerado automaticamente
-
+		List<Integer> numeros = Arrays.asList(1,2,3,4,5,6,7);
+		
+		//Filtrando apenas os numeros pares:
+		numeros.stream().filter(n -> n % 2 == 0).forEach(System.out::println);
 	}
 
 }
